@@ -1,0 +1,9 @@
+@mixin btn ($bg,$color,$padding,$hbg,$hcolor){
+  background-color: $bg;
+  color:$color;
+  padding: $padding;
+  &:hover {
+    background-color: $hbg;
+    color:$hcolor;
+  }
+}
