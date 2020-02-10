@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sourceRoot":"","sources":["../scss/header.scss"],"names":[],"mappings":"AAEI;EACI;EACA;;AAEJ;EACI;EACA","file":"style.css"}
+=======
+{"version":3,"sourceRoot":"","sources":["../scss/header.scss","../scss/footer.scss"],"names":[],"mappings":"AAEI;EACI;;;ACHR;EACI;;AAEA;EACI;;AAGJ;EACI","file":"style.css"}
+>>>>>>> 58ff8e520f8085c7cd04166aeca157c7eff07034

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .header nav img {
   width: 126px;
   margin-right: 20px;
@@ -6,5 +7,23 @@
   display: flex;
   justify-content: space-around;
 }
+=======
+header ul {
+  display: flex; }
 
-/*# sourceMappingURL=style.css.map */
+.my_main {
+  font-family: 'PT Sans', sans-serif;
+  background-color: whitesmoke; }
+  .my_main .title_main h1 {
+    text-align: center;
+    color: #424141; }
+  .my_main .title_main h4 {
+    text-align: center; }
+>>>>>>> 58ff8e520f8085c7cd04166aeca157c7eff07034
+
+footer {
+  background-image: url(img/footer-image.png); }
+  footer header {
+    text-align: center; }
+  footer main {
+    display: flex; }
