@@ -9,3 +9,10 @@ header ul {
     color: #424141; }
   .my_main .title_main h4 {
     text-align: center; }
+
+footer {
+  background-image: url(img/footer-image.png); }
+  footer header {
+    text-align: center; }
+  footer main {
+    display: flex; }
