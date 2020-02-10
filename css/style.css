@@ -1,9 +1,10 @@
-body {
-  background-color: red;
+.header nav img {
+  width: 126px;
+  margin-right: 20px;
 }
-
-header ul {
+.header nav {
   display: flex;
+  justify-content: space-around;
 }
 
 /*# sourceMappingURL=style.css.map */
