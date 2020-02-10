@@ -1,9 +1,11 @@
-body {
-  background-color: red;
-}
-
 header ul {
-  display: flex;
-}
+  display: flex; }
 
-/*# sourceMappingURL=style.css.map */
+.my_main {
+  font-family: 'PT Sans', sans-serif;
+  background-color: whitesmoke; }
+  .my_main .title_main h1 {
+    text-align: center;
+    color: #424141; }
+  .my_main .title_main h4 {
+    text-align: center; }
