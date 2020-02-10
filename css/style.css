@@ -1,8 +1,14 @@
-body {
-  background-color: red;
+header ul {
+  display: flex;
 }
 
-header ul {
+footer {
+  background-image: url(img/footer-image.png);
+}
+footer header {
+  text-align: center;
+}
+footer main {
   display: flex;
 }
 
