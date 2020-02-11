@@ -1,3 +1,31 @@
+
+* {
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing: border-box; }
+
+body {
+  max-width: 1440px;
+  margin: 0px auto; }
+
+header ul {
+  display: flex; }
+
+.equip {
+  position: relative;
+  background: url("../img/team-member-1.png") no-repeat center/cover;
+  height: 90vh; }
+  .equip h1 {
+    text-align: center;
+    font-size: 4rem; }
+.header nav img {
+  width: 126px;
+  margin-right: 20px;
+}
+.header nav {
+  display: flex;
+  justify-content: space-around;
+}
 header ul {
   display: flex; }
 

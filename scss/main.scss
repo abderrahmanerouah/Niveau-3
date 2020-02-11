@@ -1,4 +1,11 @@
+
+*{padding:0rem ;margin:0rem;box-sizing: border-box;}
+body{
+  max-width: 1440px;
+  margin:0px auto ;
+}
+@import "header";
+@import "equipe";
 @import "header";
 @import "main_body";
 @import "footer";
-
