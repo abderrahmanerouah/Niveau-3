@@ -3,12 +3,15 @@ header ul {
 }
 
 footer {
-  background-image: url(img/footer-image.png);
+  background-image: url("img/footer-image.png");
 }
 footer header {
   text-align: center;
 }
 footer main {
+  display: flex;
+}
+footer .last-part-of-footer {
   display: flex;
 }
 
