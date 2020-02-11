@@ -1,18 +1,25 @@
 .my_main {
     font-family: 'PT Sans', sans-serif;
-    background-color:rgb(245, 245, 245);
+    background-color: #eff1f7;
+}
 
-    .title_main {
+.title_main {
 
-        h1{
-            text-align: center;
-            color: rgb(66, 65, 65);
-        }
-        h4 {
-            text-align: center;
-            
-           }
-            
-            
-        }
+    h1 {
+        text-align: center;
+        color: rgb(73, 73, 73);
+        font-weight: normal;
+        font-size: 50px;
+        padding-top: 70px;;
     }
+
+
+    h4 {
+        text-align: center;
+        color: #5067b3;
+        font-size: 24px;
+        font-weight: normal;
+       
+
+    }
+   }

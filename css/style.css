@@ -3,12 +3,20 @@ header ul {
 
 .my_main {
   font-family: 'PT Sans', sans-serif;
-  background-color: whitesmoke; }
-  .my_main .title_main h1 {
-    text-align: center;
-    color: #424141; }
-  .my_main .title_main h4 {
-    text-align: center; }
+  background-color: #eff1f7; }
+
+.title_main h1 {
+  text-align: center;
+  color: #494949;
+  font-weight: normal;
+  font-size: 50px;
+  padding-top: 70px; }
+
+.title_main h4 {
+  text-align: center;
+  color: #5067b3;
+  font-size: 24px;
+  font-weight: normal; }
 
 footer {
   background-image: url(img/footer-image.png); }
