@@ -1,15 +1,26 @@
+* {
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing: border-box; }
+
+body {
+  max-width: 1440px;
+  margin: 0px auto; }
+
 header ul {
-  display: flex;
-}
+  display: flex; }
+
+.equip {
+  position: relative;
+  background: url("../img/team-member-1.png") no-repeat center/cover;
+  height: 90vh; }
+  .equip h1 {
+    text-align: center;
+    font-size: 4rem; }
 
 footer {
-  background-image: url(img/footer-image.png);
-}
-footer header {
-  text-align: center;
-}
-footer main {
-  display: flex;
-}
-
-/*# sourceMappingURL=style.css.map */
+  background-image: url(img/footer-image.png); }
+  footer header {
+    text-align: center; }
+  footer main {
+    display: flex; }
