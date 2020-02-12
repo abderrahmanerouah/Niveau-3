@@ -1,15 +1,89 @@
-footer{
-background-image: url(img/footer-image.png);
-    header{
-        text-align: center;
+footer {
+  background: url(../img/footer-image.png) no-repeat;
+  color: white;
+  width: 100%;
+  .test2 {
+    background-color: rgba($color: #5067b3, $alpha: 0.6);
+  }
+  header {
+    text-align: center;
+    padding-top: 50px;
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+    margin-top: 40px;
+    justify-content: center;
+    // justify-items: center;
+    margin: 40px;
+  }
+  .button1 {
+    margin-right: 20px;
+  }
 
+  .button1 button {
+    background-color: white;
+    color: black;
+
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    margin-left: 40px;
+  }
+  .button1 {
+    p {
+      text-align: center;
     }
-    main{
-        display: flex;
-        justify-content: space-around;
+  }
+
+  .button2 button {
+    background-color: #35c2cd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    border: none;
+  }
+}
+.button2 {
+  p {
+    text-align: center;
+  }
+}
+.last-part-of-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  text-align: center;
+  margin: 25px 50px 75px 100px;
+  a {
+    color: white;
+    margin: 10px;
+    border-bottom: 2px solid white;
+  }
+  .partA {
+    padding-bottom: 50px;
+    text-align: start;
+  }
+  .partB {
+    img {
+      width: 40px;
+      height: 40px;
+      margin-top: 40px;
     }
+    p {
+      margin-top: 30px;
+    }
+  }
+}
+@media screen and (max-width:375){
+   
     .last-part-of-footer{
-        display: flex;
+        text-align: center;
     }
-
+   
 }
