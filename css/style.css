@@ -5,7 +5,30 @@
 
 body {
   max-width: 1440px;
-  margin: 0px auto !important; }
+  margin: 0px auto; }
+
+header ul {
+  display: flex; }
+
+footer {
+  background-image: url("img/footer-image.png");
+}
+footer header {
+  text-align: center;
+
+.header nav img {
+  width: 126px;
+  margin-right: 20px;
+}
+.header nav {
+  display: flex;
+  justify-content: space-around;
+}
+footer .last-part-of-footer {
+  display: flex;
+}
+header ul {
+  display: flex; }
 
 .my_main {
   font-family: 'PT Sans', sans-serif;
