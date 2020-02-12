@@ -1,18 +1,40 @@
+@import "TITLE.scss";
+
 .my_main {
     font-family: 'PT Sans', sans-serif;
-    background-color:rgb(245, 245, 245);
+    background-color: #eff1f7;
 
-    .title_main {
-
-        h1{
-            text-align: center;
-            color: rgb(66, 65, 65);
-        }
-        h4 {
-            text-align: center;
-            
-           }
-            
-            
-        }
+    img {
+        margin-bottom: 20px;
+        ;
     }
+
+}
+
+.title_main {
+
+    h1 {
+        @include title(rgb(73, 73, 73), 50px);
+        padding-top: 70px;
+    }
+
+
+    h4 {
+        @include title(rgb(80, 103, 179), 24px);
+    }
+}
+
+.main_section {
+    display: flex;
+    text-align: center;
+    margin-top: 100px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+    h4 {
+        color: rgb(73, 73, 73);
+    }
+
+}
+

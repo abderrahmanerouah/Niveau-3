@@ -1,11 +1,14 @@
 footer{
-    background-image: url(img/footer-image.png);
-
+background-image: url(img/footer-image.png);
     header{
         text-align: center;
 
     }
     main{
+        display: flex;
+        justify-content: space-around;
+    }
+    .last-part-of-footer{
         display: flex;
     }
 

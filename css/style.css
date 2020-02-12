@@ -7,15 +7,30 @@ body {
   max-width: 1440px;
   margin: 0px auto !important; }
 
-.equip {
-  background-color: #e8eaef;
-  height: 90vh; }
-  .equip h1 {
-    text-align: center;
-    font-size: 4rem;
-    padding: 3rem 0rem 4rem 0rem; }
-  .equip_member {
-    display: flex;
-    justify-content: space-around; }
-    .equip_member-designe {
-      background-image: url(../img/team-member-1.png); }
+.my_main {
+  font-family: 'PT Sans', sans-serif;
+  background-color: #eff1f7; }
+  .my_main img {
+    margin-bottom: 20px; }
+
+.title_main h1 {
+  text-align: center;
+  color: #494949;
+  font-weight: normal;
+  font-size: 50px;
+  padding-top: 70px; }
+
+.title_main h4 {
+  text-align: center;
+  color: #5067b3;
+  font-weight: normal;
+  font-size: 24px; }
+
+.main_section {
+  display: flex;
+  text-align: center;
+  margin-top: 100px;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .main_section h4 {
+    color: #494949; }
