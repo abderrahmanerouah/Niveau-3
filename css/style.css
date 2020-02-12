@@ -1,4 +1,3 @@
-
 * {
   padding: 0rem;
   margin: 0rem;
@@ -6,41 +5,17 @@
 
 body {
   max-width: 1440px;
-  margin: 0px auto; }
-
-header ul {
-  display: flex; }
+  margin: 0px auto !important; }
 
 .equip {
-  position: relative;
-  background: url("../img/team-member-1.png") no-repeat center/cover;
+  background-color: #e8eaef;
   height: 90vh; }
   .equip h1 {
     text-align: center;
-    font-size: 4rem; }
-.header nav img {
-  width: 126px;
-  margin-right: 20px;
-}
-.header nav {
-  display: flex;
-  justify-content: space-around;
-}
-header ul {
-  display: flex; }
-
-.my_main {
-  font-family: 'PT Sans', sans-serif;
-  background-color: whitesmoke; }
-  .my_main .title_main h1 {
-    text-align: center;
-    color: #424141; }
-  .my_main .title_main h4 {
-    text-align: center; }
-
-footer {
-  background-image: url(img/footer-image.png); }
-  footer header {
-    text-align: center; }
-  footer main {
-    display: flex; }
+    font-size: 4rem;
+    padding: 3rem 0rem 4rem 0rem; }
+  .equip_member {
+    display: flex;
+    justify-content: space-around; }
+    .equip_member-designe {
+      background-image: url(../img/team-member-1.png); }
