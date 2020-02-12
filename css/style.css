@@ -1,4 +1,3 @@
-
 * {
   padding: 0rem;
   margin: 0rem;
@@ -6,32 +5,13 @@
 
 body {
   max-width: 1440px;
-  margin: 0px auto; }
-
-header ul {
-  display: flex; }
-
-.equip {
-  position: relative;
-  background: url("../img/team-member-1.png") no-repeat center/cover;
-  height: 90vh; }
-  .equip h1 {
-    text-align: center;
-    font-size: 4rem; }
-.header nav img {
-  width: 126px;
-  margin-right: 20px;
-}
-.header nav {
-  display: flex;
-  justify-content: space-around;
-}
-header ul {
-  display: flex; }
+  margin: 0px auto !important; }
 
 .my_main {
   font-family: 'PT Sans', sans-serif;
   background-color: #eff1f7; }
+  .my_main img {
+    margin-bottom: 20px; }
 
 .title_main h1 {
   text-align: center;
@@ -43,12 +23,14 @@ header ul {
 .title_main h4 {
   text-align: center;
   color: #5067b3;
-  font-size: 24px;
-  font-weight: normal; }
+  font-weight: normal;
+  font-size: 24px; }
 
-footer {
-  background-image: url(img/footer-image.png); }
-  footer header {
-    text-align: center; }
-  footer main {
-    display: flex; }
+.main_section {
+  display: flex;
+  text-align: center;
+  margin-top: 100px;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .main_section h4 {
+    color: #494949; }
