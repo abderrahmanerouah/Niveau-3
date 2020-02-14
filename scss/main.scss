@@ -5,9 +5,10 @@
 }
 
 body {
-  max-width: 1440px;
+  max-width: 1400px;
   margin: 0px auto !important;
 }
 @import "header";
 @import "main_body";
 @import "footer";
+@import "main_client";
