@@ -1,0 +1,16 @@
+* {
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1400px;
+  margin: 0px auto !important;
+}
+@import "header";
+@import "main_body";
+@import "main_client";
+@import "equipe";
+@import "footer";
+

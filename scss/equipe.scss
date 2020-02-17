@@ -1,0 +1,14 @@
+.equipe{
+    background-color: #e8eaef;
+    &__title{
+        text-align: center;
+        padding-top: 20px;
+    }
+    &__member{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-wrap: wrap;
+       
+    }
+}
