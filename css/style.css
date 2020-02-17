@@ -97,62 +97,54 @@ body {
     justify-content: center;
     flex-wrap: wrap; }
 
-footer {
-  background: url(../img/footer-image.png) no-repeat;
-  color: white; }
-  footer .test2 {
-    background-color: rgba(80, 103, 179, 0.6); }
-    footer .test2 header {
-      text-align: center;
-      padding-top: 50px; }
-    footer .test2 main {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin: 40px; }
-    footer .test2 .button1 {
-      margin-right: 20px; }
-      footer .test2 .button1 button {
-        background-color: white;
-        color: black;
-        border-radius: 5px;
-        text-align: center;
-        padding: 10px;
-        width: 200px;
-        border: none;
-        margin-left: 40px; }
-      footer .test2 .button1 p {
-        text-align: center; }
-    footer .test2 .button2 button {
-      background-color: #35c2cd;
-      border-radius: 5px;
-      text-align: center;
-      padding: 10px;
-      width: 200px;
-      border: none; }
-    footer .test2 .button2 p {
+.footer {
+  max-width: 1440px;
+  background: url(../img/footer-image.png) no-repeat center/cover;
+  color: white;
+  height: 80vh; }
+  @media only screen and (max-width: 375px) {
+    .footer {
+      height: 156vh; } }
+  .footer__container {
+    background-color: rgba(80, 103, 179, 0.6);
+    padding: 3rem 1rem 2rem 4rem; }
+    @media only screen and (max-width: 375px) {
+      .footer__container {
+        padding: 1rem 1rem 3rem 1rem; } }
+  .footer__header {
+    text-align: center;
+    margin-bottom: 3rem; }
+    .footer__header h4 {
+      margin-bottom: 3rem; }
+  .footer .main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .footer .main p {
+      margin: 1.5rem 0rem 0rem -2rem;
       text-align: center; }
-    footer .test2 .last-part-of-footer {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      margin-top: 100px;
-      text-align: center;
-      margin: 25px 50px 75px 100px; }
-      footer .test2 .last-part-of-footer a {
-        color: white;
-        margin: 10px;
-        border-bottom: 2px solid white; }
-      footer .test2 .last-part-of-footer .partA {
-        padding-bottom: 50px;
-        text-align: start; }
-      footer .test2 .last-part-of-footer .partB img {
-        width: 40px;
-        height: 40px;
-        margin-top: 40px; }
-      footer .test2 .last-part-of-footer .partB p {
-        margin-top: 30px; }
 
-@media screen and (max-width: 375) {
-  .last-part-of-footer {
-    text-align: center; } }
+.footer__adresse__icon {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  @media only screen and (max-width: 375px) {
+    .footer__adresse__icon {
+      justify-content: center; } }
+  .footer__adresse__icon p {
+    margin-bottom: 3rem; }
+  .footer__adresse__icon a {
+    color: white;
+    text-decoration: underline;
+    margin-right: 1rem; }
+  .footer__adresse__icon .footer__icon {
+    padding-top: 3rem; }
+    @media only screen and (max-width: 375px) {
+      .footer__adresse__icon .footer__icon {
+        padding-left: 5rem; } }
+    .footer__adresse__icon .footer__icon img {
+      margin-bottom: 3rem; }
+
+@media only screen and (max-width: 375px) {
+  #btn-marg {
+    margin-left: 1rem; } }
