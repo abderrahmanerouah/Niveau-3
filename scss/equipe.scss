@@ -1,17 +1,74 @@
-.equip{
-  background:  background-image: url(../img/team-member-1.png) no-repeat cover/center;
-  height: 90vh;
-  h1{
-    text-align: center;
-    font-size: 4rem; 
-    padding:3rem 0rem 4rem 0rem;
+@mixin card {
+  background-repeat: no-repeat ;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  color: white;
+
+      h1 {
+          text-align: center;
+          margin: 5px auto; 
+          padding: 10px 40px;
+          background-color: #3D3D3F;
+          border-radius: 100px;
+          width: 100px;
+      }
+  h2 {
+      margin-top: 400px;
   }
-  &_member{
-    display: flex;
-    justify-content: space-around;
-     &-designe{
-      
-    }
-  }
+}
+
+.container__equipe {
+  background-color: #E8EAEF;
+
+  .equipe {
+      display: grid;
+      grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 0.5fr;
+      grid-template-rows: auto auto auto;
+      }
+
+      .equipe_title {
+          grid-column: 2/6;
+          grid-row: 1/2;
+          text-align: center;
+          margin: 10px;
+          margin-bottom: 50px;
+          font-size: 36px;
+      }
+
+      .mbr_1 {
+          grid-column: 2/3;
+          grid-row: 2/3;
+          background: url(../img/1.jpg);
+          @include card();
+      }
+
+      .mbr_2 {
+          grid-column: 3/4;
+          grid-row: 2/3;
+          background: url(../img/2.jpg);
+          @include card();
+
+          button {
+
+              h1 {
+                  background-color: #35C2CD;
+              }
+          }
+      }
+
+      .mbr_3 {
+          grid-column: 4/5;
+          grid-row: 2/3;
+          background: url(../img/3.jpg);
+          @include card();
+      }
+
+      .mbr_4 {
+          grid-column: 5/6;
+          grid-row: 2/3;
+          background: url(../img/4.jpg);
+          @include card();
+      }
   }
 

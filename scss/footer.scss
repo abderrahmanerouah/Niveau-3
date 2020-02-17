@@ -1,28 +1,31 @@
-footer {
-  background: url(../img/footer-image.png) no-repeat;
+.footer {
+  max-width: 1440px;
+  background: url(../img/footer-image.png) no-repeat center/cover;
   color: white;
-  width: 100%;
-  .test2 {
+  height: 80vh;
+  &__container {
     background-color: rgba($color: #5067b3, $alpha: 0.6);
-  }
+    // width: 1400px;
+
   header {
     text-align: center;
     padding-top: 50px;
   }
+
   main {
     display: flex;
     flex-wrap: wrap;
     // justify-content: space-between;
-    margin-top: 40px;
+    
     justify-content: center;
     // justify-items: center;
     margin: 40px;
   }
-  .button1 {
+  .footer__btn1 {
     margin-right: 20px;
   }
 
-  .button1 button {
+  .footer__btn1 button {
     background-color: white;
     color: black;
 
@@ -33,13 +36,13 @@ footer {
     border: none;
     margin-left: 40px;
   }
-  .button1 {
+  .footer__btn1 {
     p {
       text-align: center;
     }
   }
 
-  .button2 button {
+  .footer__btn2 button {
     background-color: #35c2cd;
     border-radius: 5px;
     text-align: center;
@@ -48,42 +51,35 @@ footer {
     border: none;
   }
 }
-.button2 {
+.footer__btn2 {
   p {
     text-align: center;
   }
 }
-.last-part-of-footer {
+.footer__adresse__icon {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 100px;
   text-align: center;
   margin: 25px 50px 75px 100px;
+
   a {
     color: white;
     margin: 10px;
     border-bottom: 2px solid white;
   }
-  .partA {
+  .footer__adresse {
+    margin-left: 100px;
     padding-bottom: 50px;
     text-align: start;
+    // text-align: center;
   }
-  .partB {
+    margin-right: 80px;
     img {
-      width: 40px;
-      height: 40px;
-      margin-top: 40px;
-    }
+
     p {
       margin-top: 30px;
     }
   }
-}
-@media screen and (max-width:375){
-   
-    .last-part-of-footer{
-        text-align: center;
-    }
-   
 }
