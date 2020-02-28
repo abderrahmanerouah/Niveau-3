@@ -1,4 +1,4 @@
-section{
+.contact{
 
 background: url("../img/0P9A2616.JPG") no-repeat center/cover ;
  height: 75%;
@@ -51,4 +51,13 @@ input{
 }
 .btn--color{
   background-image: linear-gradient(to right, #5555a5, #5165b2, #3ea3c5, #3da6c6);
+}
+
+
+#erreur{
+  background-color: white;
+  color: red;
+}
+.testtt{
+  border: 5px solid red;
 }

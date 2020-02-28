@@ -15,19 +15,19 @@ function (event) {
  var email2 = document.getElementById("email2")
  if(!email2.value) {
    erreur ="veiller confirmer votre email";
-   email2.style.border = "5px solid red"
+   email2.classList.add('testtt')
  }else{
    email2.style.border ="2px solid green"
  }
  if(!email.value) {
    erreur ="veiller rensegnier un email";
-   email.style.border = "5px solid red"
+   email.classList.add('testtt')
  }else{
    email.style.border ="2px solid green"
  }
  if(!pseudo.value){
    erreur ="veuiller rensegnier un pseudo";
-   pseudo.style.border = "5px solid red"
+   pseudo.classList.add('testtt')
  }else{
    pseudo.style.border ="2px solid green"
  }
