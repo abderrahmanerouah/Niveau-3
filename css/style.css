@@ -49,12 +49,16 @@ input {
 .btn--color {
   background-image: linear-gradient(to right, #5555a5, #5165b2, #3ea3c5, #3da6c6); }
 
-#erreur {
-  background-color: white;
-  color: red; }
-
 .testtt {
-  border: 5px solid red; }
+  border: 5px solid red;
+  border-radius: 5px; }
+
+.testt {
+  border: 2px solid green;
+  border-radius: 5px; }
+
+.disp {
+  display: none; }
 
 .container {
   max-width: 1440px !important; }

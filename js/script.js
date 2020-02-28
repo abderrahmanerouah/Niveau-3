@@ -9,7 +9,8 @@ document.getElementById('email2').addEventListener("input", function(event){
 
 document.getElementById("inscription").addEventListener("submit",
 function (event) {
- var erreur ; 
+ 
+ var erreur ;
  var pseudo = document.getElementById("pseudo")
  var email = document.getElementById("email")
  var email2 = document.getElementById("email2")
@@ -17,32 +18,30 @@ function (event) {
    erreur ="veiller confirmer votre email";
    email2.classList.add('testtt')
  }else{
-   email2.style.border ="2px solid green"
+   email2.classList.add('testt')
  }
  if(!email.value) {
    erreur ="veiller rensegnier un email";
    email.classList.add('testtt')
  }else{
-   email.style.border ="2px solid green"
+   email.classList.add('testt')
  }
  if(!pseudo.value){
    erreur ="veuiller rensegnier un pseudo";
    pseudo.classList.add('testtt')
  }else{
-   pseudo.style.border ="2px solid green"
+   pseudo.classList.add('testt')
  }
  
 if (erreur) {
   event.preventDefault();  
   document.getElementById("erreur").innerHTML = erreur;
-  document.getElementById("erreur").style.color = "red";
- //  return false;
 } else if (email.value != email2.value) {
  event.preventDefault();  
- email.style.border = "5px solid red";
- email2.style.border = "5px solid red";
+ email.mail.classList.add('testtt')
+ email2.mail.classList.add('testtt')
 } else {
- alert('formulaire envoyé ')
+ alert('formulaire envoyé '+ '' + Date())
 }
 });
 

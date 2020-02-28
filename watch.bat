@@ -1,1 +1,1 @@
-node-sass scss/main.scss .\css\style.css --watch
+node-sass scss/main.scss css/style.css --watch

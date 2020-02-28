@@ -54,10 +54,16 @@ input{
 }
 
 
-#erreur{
-  background-color: white;
-  color: red;
-}
+
 .testtt{
   border: 5px solid red;
+  border-radius: 5px;
+}
+.testt{
+  border:2px solid green;
+  border-radius: 5px;
+}
+.disp{
+  display: none;
+
 }
